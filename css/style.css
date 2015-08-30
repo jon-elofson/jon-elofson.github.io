@@ -70,7 +70,7 @@
 		-webkit-backface-visibility: hidden;
 		-moz-backface-visibility:    hidden;
 		-ms-backface-visibility:     hidden;
-		background: url("../images/backgrounds/bg_img01_01.jpg"); 
+		background: url("../images/backgrounds/sf.jpg"); 
 		}
 	ol, ul {
 		list-style: none; }
@@ -108,7 +108,7 @@
 		color: #333;
 		font-weight: 400;
 	}
-		
+
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 38px; line-height: 60px; }
 	h2 { font-size: 32px; line-height: 50px; }
@@ -279,7 +279,7 @@
 		-moz-transition: color ease .2s, background ease .2s;
 		-ms-transition: color ease .2s, background ease .2s;
 		-o-transition: color ease .2s, background ease .2s;
-		transition: color ease .2s, background ease .2s;	
+		transition: color ease .2s, background ease .2s;
 	}
 
 	.facebook {
@@ -292,7 +292,7 @@
 		-moz-transition: color ease .2s, background ease .2s;
 		-ms-transition: color ease .2s, background ease .2s;
 		-o-transition: color ease .2s, background ease .2s;
-		transition: color ease .2s, background ease .2s;	
+		transition: color ease .2s, background ease .2s;
 	}
 
 	.twitter {
@@ -305,7 +305,7 @@
 		-moz-transition: color ease .2s, background ease .2s;
 		-ms-transition: color ease .2s, background ease .2s;
 		-o-transition: color ease .2s, background ease .2s;
-		transition: color ease .2s, background ease .2s;		
+		transition: color ease .2s, background ease .2s;
 	}
 
 	.linkedin {
@@ -318,7 +318,7 @@
 		-moz-transition: color ease .2s, background ease .2s;
 		-ms-transition: color ease .2s, background ease .2s;
 		-o-transition: color ease .2s, background ease .2s;
-		transition: color ease .2s, background ease .2s;		
+		transition: color ease .2s, background ease .2s;
 	}
 
 	.skype {
@@ -331,7 +331,7 @@
 		-moz-transition: color ease .2s, background ease .2s;
 		-ms-transition: color ease .2s, background ease .2s;
 		-o-transition: color ease .2s, background ease .2s;
-		transition: color ease .2s, background ease .2s;		
+		transition: color ease .2s, background ease .2s;
 	}
 
 	.instagram {
@@ -344,7 +344,7 @@
 		-moz-transition: color ease .2s, background ease .2s;
 		-ms-transition: color ease .2s, background ease .2s;
 		-o-transition: color ease .2s, background ease .2s;
-		transition: color ease .2s, background ease .2s;	
+		transition: color ease .2s, background ease .2s;
 	}
 	.main-column {
 		overflow: hidden;
@@ -387,8 +387,8 @@
 		width: 40%;
 		height: 96px;
 		line-height: 96px;
-		color: #fff;	
-		text-align: center;	
+		color: #fff;
+		text-align: center;
 	}
 	#main-nav {
 		display: inline-block;
@@ -404,7 +404,7 @@
 	.tabs i {
 		font-size: 28px;
 	}
-	.tabs li {	
+	.tabs li {
 		height: 96px;
 		line-height: 107px;
 		text-align: center;
@@ -425,7 +425,7 @@
 		-o-transition: color ease .4s, background ease .4s;
 		transition: color ease .4s, background ease .4s;
 		color: #fff;
-		text-decoration: none;	
+		text-decoration: none;
 	}
 
 	.tabs li.about a {
@@ -607,7 +607,7 @@
 		padding-top: 24px;
 	}
 	.trianglewrap {
-		width: 64px;	
+		width: 64px;
 	}
 	.datetriangle {
 		float: right;
@@ -650,37 +650,37 @@
 	    background: #e74c3c !important;
 	}
 	.button-red:hover {
-	    background: #ee5c4d !important;   
+	    background: #ee5c4d !important;
 	}
 	.button-blue {
 	    background: #3498db !important;
 	}
 	.button-blue:hover {
-	    background: #42a4e5 !important;   
+	    background: #42a4e5 !important;
 	}
 	.button-green {
 	    background: #93b336 !important;
 	}
 	.button-green:hover {
-	    background: #9fc041 !important;   
+	    background: #9fc041 !important;
 	}
 	.button-yellow {
 	    background: #ffbb00 !important;
 	}
 	.button-yellow:hover {
-	    background: #ffc526 !important;   
+	    background: #ffc526 !important;
 	}
 	.button-grey {
 	    background: #959595 !important;
 	}
 	.button-grey:hover {
-	    background: #a0a0a0 !important;   
+	    background: #a0a0a0 !important;
 	}
 	.button-light-grey {
 	    background: #cccccc !important;
 	}
 	.button-light-grey:hover {
-	    background: #dbdbdb !important;   
+	    background: #dbdbdb !important;
 	}
 	.button.small {
 	    padding: 5px 8px 6px;
@@ -698,7 +698,7 @@
 		background-color: #eeeeee;
 		padding: 30px 0 35px 0;
 		display: inline-block;
-		margin-bottom: -6px; 
+		margin-bottom: -6px;
 	}
 	#sidebar .plain-content {
 		padding-top: 0;
@@ -864,8 +864,8 @@
 
 /*  20. Project Item Overlay */
 	.project-item {
-	    overflow: hidden;	
-	    height: 234px; 
+	    overflow: hidden;
+	    height: 234px;
 	}
 	.project-item .thumbnail {
 	    overflow: hidden;
@@ -888,7 +888,7 @@
 	    height: 100%;
 	    background: #e74c3c;
 	    -webkit-backface-visibility: hidden;
-	    
+
 	    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	    filter: alpha(opacity=0);
 	    opacity: 0;
@@ -1017,9 +1017,9 @@
 	}
 
 
-/*  24. Blog Pages */	
+/*  24. Blog Pages */
 
-	/*  Blog Filter */	
+	/*  Blog Filter */
 
 	.blog-feed-filter {
 	    display: inline-block;
@@ -1083,7 +1083,7 @@
 		text-align: center;
 	}
 	.post-body {
-		
+
 	}
 	.post-body span {
 		background: #e1e1e1;
@@ -1092,7 +1092,7 @@
 	}
 	.post-body span:hover {
 		background: #e74c3c;
-	}	
+	}
 	.post-body a span {
 		font-size: 11px;
 	}
@@ -1102,7 +1102,7 @@
 
 
 	.trianglewrap-blog {
-		width: 64px;	
+		width: 64px;
 	}
 	.triangle-blog {
 		float: right;
@@ -1112,13 +1112,13 @@
 		border-width: 0 10px 10px 0;
 		border-color: transparent #e67e22 transparent transparent;
 	}
-	
+
 	.video {
 	    position: relative;
 	    padding-bottom: 56.25%;
 	    padding-top: 30px; height: 0; overflow: hidden;
 	}
- 
+
 	.video iframe,
 	.video object,
 	.video embed {
@@ -1131,7 +1131,7 @@
 
 
 	#comments {
-		padding-top: 50px; 
+		padding-top: 50px;
 	}
 
 	.comments-list {
@@ -1235,7 +1235,7 @@
 		float: right;
 	}
 
-	
+
 /*  25. Blockquote  */
 blockquote {
     margin-top:16px;
@@ -1353,7 +1353,7 @@ blockquote.wide .corner {
 		.vcard-container {
 			width: 716px;
 		}
-		.one-third { 
+		.one-third {
 			width: 100% !important;
 			margin-right: 0!important;
 			margin-bottom: 32px !important;
@@ -1388,7 +1388,7 @@ blockquote.wide .corner {
 		#main-nav {
 			width: 460px;
 		}
-		.tabs li {	
+		.tabs li {
 			height: 96px;
 			line-height: 107px;
 			text-align: center;
@@ -1397,33 +1397,33 @@ blockquote.wide .corner {
 			list-style: none;
 		}
 		.project-item {
-		    height: 524px; 
+		    height: 524px;
 		}
 
 		.job-title, .post-title {
 			max-width: 83%;
 		}
-		
+
 		.comment .children {
 			padding-left: 0px;
 		}
 
-		.comment .comment-entry, .comment .comment-meta, 
-		.comment .children .comment-entry, .comment .children .comment-meta, 
-		.comment .children .children .comment-entry, .comment .children .children .comment-meta, 
-		.comment .children .children .children .comment-entry, .comment .children .children .children .comment-meta, 
-		.comment .children .children .children .children .comment-entry, .comment .children .children .children .children .comment-meta, 
+		.comment .comment-entry, .comment .comment-meta,
+		.comment .children .comment-entry, .comment .children .comment-meta,
+		.comment .children .children .comment-entry, .comment .children .children .comment-meta,
+		.comment .children .children .children .comment-entry, .comment .children .children .children .comment-meta,
+		.comment .children .children .children .children .comment-entry, .comment .children .children .children .children .comment-meta,
 		.comment .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .comment-meta,
-		.comment .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .comment-meta, 
-		.comment .children .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .children .comment-meta   
+		.comment .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .comment-meta,
+		.comment .children .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .children .comment-meta
 		{
 		    width: 86%;
 		}
-		
+
 
 		.button-red, .button-blue, .button-green, .button-yellow, .button-grey, .button-light-grey {
 			margin-bottom: 10px;
-		} 
+		}
 
 	}
 
@@ -1432,9 +1432,9 @@ blockquote.wide .corner {
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		
+
 		.bg-cover {
-			background-size: 100% 100%; 
+			background-size: 100% 100%;
 		}
 
 		.vcard-container {
@@ -1510,7 +1510,7 @@ blockquote.wide .corner {
 		.jobtitle, .post-title {
 			width: 100%;
 		}
-		.one-third { 
+		.one-third {
 			width: 100% !important;
 			margin-right: 0!important;
 			margin-bottom: 24px !important;
@@ -1529,21 +1529,21 @@ blockquote.wide .corner {
 			margin: 12px 0 0 4px;
 		}
 		.project-item {
-		    height: 400px; 
+		    height: 400px;
 		}
 
 		.comment .children {
 			padding-left: 0px;
 		}
 
-		.comment .comment-entry, .comment .comment-meta, 
-		.comment .children .comment-entry, .comment .children .comment-meta, 
-		.comment .children .children .comment-entry, .comment .children .children .comment-meta, 
-		.comment .children .children .children .comment-entry, .comment .children .children .children .comment-meta, 
-		.comment .children .children .children .children .comment-entry, .comment .children .children .children .children .comment-meta, 
+		.comment .comment-entry, .comment .comment-meta,
+		.comment .children .comment-entry, .comment .children .comment-meta,
+		.comment .children .children .comment-entry, .comment .children .children .comment-meta,
+		.comment .children .children .children .comment-entry, .comment .children .children .children .comment-meta,
+		.comment .children .children .children .children .comment-entry, .comment .children .children .children .children .comment-meta,
 		.comment .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .comment-meta,
-		.comment .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .comment-meta, 
-		.comment .children .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .children .comment-meta   
+		.comment .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .comment-meta,
+		.comment .children .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .children .comment-meta
 		{
 		    width: 86%;
 		}
@@ -1551,7 +1551,7 @@ blockquote.wide .corner {
 		.button-red, .button-blue, .button-green, .button-yellow, .button-grey, .button-light-grey {
 			width: 100%;
 			margin-bottom: 10px;
-		} 
+		}
 		.reveal-modal {
 			top: 10px;
 		}
@@ -1560,9 +1560,9 @@ blockquote.wide .corner {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		
+
 		.bg-cover {
-			background-size: 100% 100%; 
+			background-size: 100% 100%;
 		}
 
 		.vcard-container {
@@ -1590,7 +1590,7 @@ blockquote.wide .corner {
 		#main-nav {
 			width: 100%;
 			height: 60px;
-		}	
+		}
 
 		.tabs li {
 			height: 60px;
@@ -1650,7 +1650,7 @@ blockquote.wide .corner {
 		text-transform: uppercase;
 		color: #fff;
 		}
-		.one-third { 
+		.one-third {
 			width: 100% !important;
 			margin-right: 0!important;
 			margin-bottom: 24px !important;
@@ -1690,7 +1690,7 @@ blockquote.wide .corner {
 		line-height: 43px;
 		}
 		.project-item {
-		    height: 236px; 
+		    height: 236px;
 		}
 
 		.comments-links {
@@ -1705,14 +1705,14 @@ blockquote.wide .corner {
 			float: none;
 		}
 
-		.comment .comment-entry, .comment .comment-meta, 
-		.comment .children .comment-entry, .comment .children .comment-meta, 
-		.comment .children .children .comment-entry, .comment .children .children .comment-meta, 
-		.comment .children .children .children .comment-entry, .comment .children .children .children .comment-meta, 
-		.comment .children .children .children .children .comment-entry, .comment .children .children .children .children .comment-meta, 
+		.comment .comment-entry, .comment .comment-meta,
+		.comment .children .comment-entry, .comment .children .comment-meta,
+		.comment .children .children .comment-entry, .comment .children .children .comment-meta,
+		.comment .children .children .children .comment-entry, .comment .children .children .children .comment-meta,
+		.comment .children .children .children .children .comment-entry, .comment .children .children .children .children .comment-meta,
 		.comment .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .comment-meta,
-		.comment .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .comment-meta, 
-		.comment .children .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .children .comment-meta   
+		.comment .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .comment-meta,
+		.comment .children .children .children .children .children .children .children .comment-entry, .comment .children .children .children .children .children .children .children .comment-meta
 		{
 		    width: 100%;
 		}
@@ -1723,13 +1723,13 @@ blockquote.wide .corner {
 			padding-left: 0px !important;
 		}
 		.post-details {
-			margin-top: 15px;: 
+			margin-top: 15px;:
 		}
 
 		.button-red, .button-blue, .button-green, .button-yellow, .button-grey, .button-light-grey {
 			width: 100%;
 			margin-bottom: 10px;
-		} 
+		}
 		.reveal-modal {
 			top: 10px;
 		}
@@ -1839,4 +1839,3 @@ ul.compressed li:first-child {
 .circle li {
     background: url(../images/list_circle.png) no-repeat 4px 53%;
 }
-

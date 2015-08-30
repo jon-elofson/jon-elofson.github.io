@@ -51,6 +51,10 @@
         height: 100%;
     }
 
+		div#about div.grey-content {
+			display: none;
+		}
+
 	.bg-cover {
 		background-attachment: fixed;
 		background-position: 50% 50%;
@@ -59,6 +63,10 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-repeat: no-repeat;
+	}
+
+	#skills {
+		display: none;
 	}
 
 	body {
@@ -493,7 +501,6 @@
 	.grey-content {
 		padding: 40px 64px 40px 64px;
 		background: #eeeeee;
-		display: none;
 	}
 
 	div #home  {

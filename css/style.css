@@ -493,7 +493,7 @@
 	.grey-content {
 		padding: 40px 64px 40px 64px;
 		background: #eeeeee;
-		display: inline-block;
+		display: none;
 	}
 
 	div #home  {

@@ -65,10 +65,6 @@
 		background-repeat: no-repeat;
 	}
 
-	#skills {
-		display: none;
-	}
-
 	body {
 		overflow-x: hidden;
         overflow-y: auto;

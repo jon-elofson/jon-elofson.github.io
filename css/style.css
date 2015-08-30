@@ -70,7 +70,7 @@
 		-webkit-backface-visibility: hidden;
 		-moz-backface-visibility:    hidden;
 		-ms-backface-visibility:     hidden;
-		background: url("../images/backgrounds/sf.jpg"); 
+		background: url("../images/backgrounds/sf.jpg");
 		}
 	ol, ul {
 		list-style: none; }
@@ -261,6 +261,7 @@
 		font-size: 21px;
 		color: #fff;
 	}
+
 	.social-buttons div {
 		height: 64px;
 		width: 64px;
@@ -271,7 +272,7 @@
 
 	.blog {
 		background-color: #d2d2d2;
-		background-color: rgba(255, 255, 255, 0.4);
+		background-color: rgba(0,0,0,0.2);
 	}
 	.blog:hover {
 		background-color: #3498db;
@@ -284,10 +285,10 @@
 
 	.facebook {
 		background-color: #d2d2d2;
-		background-color: rgba(255, 255, 255, 0.3);
+		background-color: rgba(0,0,0,0.2);
 	}
 	.facebook:hover {
-		background-color: #3498db;
+		background-color: #1ABC9C;
 		-webkit-transition: color ease .2s, background ease .2s;
 		-moz-transition: color ease .2s, background ease .2s;
 		-ms-transition: color ease .2s, background ease .2s;
@@ -297,7 +298,8 @@
 
 	.twitter {
 		background-color: #dcdcdc;
-		background-color: rgba(255, 255, 255, 0.25);
+		display: none;
+		background-color: rgba(0, 0, 0, 0.2);
 	}
 	.twitter:hover {
 		background-color: #1abc9c;
@@ -310,7 +312,7 @@
 
 	.linkedin {
 		background-color: #e6e6e6;
-		background-color: rgba(255, 255, 255, 0.2);
+		background-color: rgba(0, 0, 0, 0.2);
 	}
 	.linkedin:hover {
 		background-color: #9b59b6;
@@ -323,7 +325,7 @@
 
 	.skype {
 		background-color: #f0f0f0;
-		background-color: rgba(255, 255, 255, 0.15);
+		background-color: rgba(0, 0, 0, 0.2);
 	}
 	.skype:hover {
 		background-color: #e67e22;
@@ -336,7 +338,7 @@
 
 	.instagram {
 		background-color: #f8f8f8;
-		background-color: rgba(255, 255, 255, 0.1);
+		background-color: rgba(0, 0, 0, 0.2);
 	}
 	.instagram:hover {
 		background-color: #da442e;
@@ -502,6 +504,12 @@
 		font-weight: 300;
 		line-height: 52px;
 	}
+
+	#home p.orange {
+		font-size: 36px;
+		width: 600px;
+	}
+
 	#home span {
 		color: #9b59b6;
 		font-size: 32px;
@@ -710,7 +718,7 @@
 	#footer {
 		max-width: 100%;
 		background-color: #d2d2d2;
-		background-color: rgba(255, 255, 255, 0.3);
+		background-color: rgba(0, 0, 0, 0.2);
 		height: 64px;
 	}
 	.triangle {

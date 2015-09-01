@@ -53,7 +53,7 @@ jQuery(document).ready(function() {
             resizable          : true,
             queue              : false
             }
-            // set columnWidth to a percentage of container width  
+            // set columnWidth to a percentage of container width
         });
 
         $('project-feed').isotope('reLayout');
@@ -68,7 +68,7 @@ jQuery(document).ready(function() {
             });
             return false;
         });
-            
+
 
     /* --------------------------------------------------------------------------- */
     /*  Easytabs
@@ -85,7 +85,7 @@ jQuery(document).ready(function() {
 
 
 
-    
+
     /* --------------------------------------------------------------------------- */
     /*    Knob Progressbar Plugin
     /* --------------------------------------------------------------------------- */
@@ -254,7 +254,7 @@ jQuery(document).ready(function() {
     /* --------------------------------------------------------------------------- */
 
     // $("#back-top").hide();
-    
+
     // $(window).scroll(function () {
     //     if ($(this).scrollTop() > 100) {
     //         $('#back-top').fadeIn();
@@ -278,9 +278,9 @@ jQuery(document).ready(function() {
     /*  Google Maps
     /* --------------------------------------------------------------------------- */
 
-    var $latlng             = new google.maps.LatLng(34.021453,-118.785027),
+    var $latlng             = new google.maps.LatLng(37.764802,-122.423568),
         $myOptions          = {
-            zoom            : 16,
+            zoom            : 12,
             center          : $latlng,
             panControl      : false,
             zoomControl     : true,
@@ -295,7 +295,7 @@ jQuery(document).ready(function() {
             var $map = new google.maps.Map(document.getElementById("map"), $myOptions);
             var marker = new google.maps.Marker({
                 position: $latlng,
-                map: $map, 
+                map: $map,
                 title: ""
             });
         }
@@ -317,6 +317,6 @@ jQuery(document).ready(function() {
     /* --------------------------------------------------------------------------- */
 
     $(document).foundation();
-		
+
 
 });

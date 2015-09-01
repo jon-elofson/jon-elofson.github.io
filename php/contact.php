@@ -29,7 +29,7 @@
 
     //If there is no error, send the email
     if(!$hasError) {
-        $emailTo = 'yourname@yourcompany.com'; //Put your own email address here
+        $emailTo = 'jonathan.elofson@gmail.com'; //Put your own email address here
         $subject = 'Message from your website'; //Put your own subject here
         $body = "Name: $name \n\nEmail: $email \n\nSubject: $subject \n\nComments:\n $message";
         $headers = "From: ".$name." <".$email.">\r\nReply-To: ".$email."";
@@ -37,10 +37,10 @@
         $sent = mail($emailTo, $subject, $body, $headers);
         if ($sent) {
                 //If message is sent
-                echo "SEND"; 
+                echo "SEND";
             } else {
                 //If errors are found
-                echo "Please check if you've filled all the fields with valid information and try again. Thank you."; 
+                echo "Please check if you've filled all the fields with valid information and try again. Thank you.";
             }
     } else {
         echo $hasError; //If errors are found

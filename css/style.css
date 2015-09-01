@@ -276,6 +276,7 @@
 
 	.blog {
 		background-color: #d2d2d2;
+		display: none;
 		background-color: rgba(0,0,0,0.2);
 	}
 	.blog:hover {
@@ -302,7 +303,6 @@
 
 	.twitter {
 		background-color: #dcdcdc;
-		display: none;
 		background-color: rgba(0, 0, 0, 0.2);
 	}
 	.twitter:hover {

@@ -204,6 +204,16 @@
 	    margin-bottom:20px;
 	}
 
+	#contact-form input {
+		font-size: 14px;
+		color: black;
+	}
+
+	#contact-form input.button-red.submit-contact {
+		font-size: 14px;
+		color: white;
+	}
+
 
 /* 5. Wrapping */
 	.vcard-container {

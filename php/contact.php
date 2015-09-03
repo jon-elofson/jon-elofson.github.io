@@ -27,7 +27,7 @@
         }
     }
 
-    //If there is no error, send the email
+    // If there is no error, send the email
     // if(!$hasError) {
     //     $emailTo = 'jonathan.elofson@gmail.com'; //Put your own email address here
     //     $subject = 'Message from your website'; //Put your own subject here

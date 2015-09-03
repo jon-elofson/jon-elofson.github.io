@@ -221,27 +221,27 @@ jQuery(document).ready(function() {
     });
 
 // Send the email
-    $contactform.submit(function(){
-        if ($contactform.valid()){
-            $.ajax({
-                type: "POST",
-                url: "php/contact.php",
-                data: $(this).serialize(),
-                success: function(msg) {
-                    if (msg == 'SEND') {
-                        response = '<div class="alert success">'+ $success +'</div>';
-                    }
-                    else {
-                        response = '<div class="error">'+ msg +'</div>';
-                    }
-                    $(".error,.success").remove();
-                    $contactform.prepend(response);
-                }
-             });
-            return false;
-        }
-        return false;
-    });
+    // $contactform.submit(function(){
+    //     if ($contactform.valid()){
+    //         $.ajax({
+    //             type: "POST",
+    //             url: "php/contact.php",
+    //             data: $(this).serialize(),
+    //             success: function(msg) {
+    //                 if (msg == 'SEND') {
+    //                     response = '<div class="alert success">'+ $success +'</div>';
+    //                 }
+    //                 else {
+    //                     response = '<div class="error">'+ msg +'</div>';
+    //                 }
+    //                 $(".error,.success").remove();
+    //                 $contactform.prepend(response);
+    //             }
+    //          });
+    //         return false;
+    //     }
+    //     return false;
+    // });
 
 
 

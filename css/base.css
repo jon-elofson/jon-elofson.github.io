@@ -1,0 +1,59 @@
+body {
+  background-color: #EFB341;
+  color: white;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  padding: 32px;
+}
+h2.subtitle {
+  font-size: 12px;
+  margin-top: 0px;
+}
+h1.name {
+  margin-bottom: 0px;
+}
+img.mepic {
+  max-width: 150px;
+  width: 100%;
+}
+a {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+.link-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+.story {
+  display: none;
+}
+.subsection {
+  display: none;
+  float: left;
+  position: relative;
+  left: 20%;
+  overflow: auto;
+  width: 80%;
+}
+p {
+  font-size: 12px;
+}
+.bookpic {
+  height: 300px;
+  width: 200px;
+  display: block;
+  position: relative;
+  float: left;
+}
+.albumpic {
+  height: 250px;
+  width: 250px;
+  display: block;
+  position: relative;
+  float: left;
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Jon Elofson</title>
-    <!-- <link rel="icon" type="img/ico" href="../images/favicon.ico"> -->
+    <link rel="icon" type="img/ico" href="../images/favicon.ico">
     <link type="text/css"rel="stylesheet" href="../css/base.css">
     <script src="http://www.google.com/jsapi" type="text/javascript"></script>
     <script type="text/javascript">google.load("jquery", "1.3.2");</script>
@@ -13,13 +13,8 @@
       <img class="mepic" src="../images/jon-elofson.jpg" alt="this is me">
       <h1 class="name">Jon Elofson</h1>
       <h2 class="subtitle">401-580-0099</h2>
-      <h2 class="subtitle"><a href="mailto:jonathanelofson@gmail.com?subject=hijon">jonathan.elofson@gmail.com</a></h2>
+      <h2 class="subtitle"><a href="mailto:jonathan.elofson@gmail.com?subject=hi_jon">jonathan.elofson@gmail.com</a></h2>
       <br>
-      <li>
-        <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=jonathan+elofson">
-            some papers I've worked on
-        </a>
-      </li>
       <li>
         <a href="https://www.github.com/jon-elofson">
             my github
@@ -36,28 +31,17 @@
         </a>
       </li>
       <li>
+        <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=jonathan+elofson">
+            some papers I've worked on
+        </a>
+      </li>
+      <li>
         <a href="#" onclick="showBooks()">books I like</a>
       </li>
       <li>
         <a href="#" onclick="showAlbums()">albums I like</a>
       </li>
-      <li>
-        <a href="#" onclick="showStory()">
-          my story
-        </a>
-      </li>
     </ul>
-    <div class="subsection story">
-        <p>
-          i was born in rhode island. i have two parents and one older sister.
-          i went to high school. i went to brown university where i learned liked
-          neuroscience and psychology and biology and fiction and boys. i moved
-          to san francisco. i worked at ucsf doing research on dementia. i learned i
-          liked to code. i went to a software development bootcamp. i got a job
-          doing code at 23andme. i quit that job. now i'm looking for my next
-          thing.
-        </p>
-    </div>
     <div class="subsection books">
       <img class="bookpic" src="../images/molloy.jpg" alt="molloy">
       <img class="bookpic" src="../images/IOAWNAT-cover.jpg" alt="ioawnat">
@@ -108,10 +92,6 @@
     </div>
   </body>
   <script type="text/javascript">
-      function showStory () {
-        $(".subsection").hide()
-        $(".story").show()
-      }
       function showBooks () {
         $(".subsection").hide()
         $(".books").show()

@@ -5,7 +5,7 @@ body {
   padding: 32px;
 }
 h2.subtitle {
-  font-size: 12px;
+  font-size: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -13,10 +13,12 @@ h1.name {
   margin-bottom: 0px;
 }
 img.mepic {
-  max-width: 150px;
-  width: 100%;
+  width: 150px;
 }
 a {
+  color: white;
+}
+ul a {
   color: white;
   font-style: normal;
   text-decoration: none;
@@ -25,36 +27,41 @@ a {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
   height: 100%;
   position: fixed;
   overflow: auto;
 }
-.story {
-  display: none;
-}
 .subsection {
   display: none;
   float: left;
-  position: relative;
-  left: 20%;
-  overflow: auto;
+  position: fixed;
+  left: 250px;
   width: 80%;
+  height: 100%;
+  overflow-y: scroll;
 }
-p {
-  font-size: 12px;
+.aboutme {
+  font-size: 100%;
+  width: 70%;
+  max-width: 500px;
 }
-.bookpic {
-  height: 300px;
-  width: 200px;
-  display: block;
-  position: relative;
-  float: left;
+.project_image {
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
 }
-.albumpic {
-  height: 250px;
-  width: 250px;
-  display: block;
-  position: relative;
-  float: left;
+.projects {
+  list-style-type: none;
+  overflow-y: scroll;
+  height: 100%;
+}
+.projects li {
+  padding-top: 20px;
+}
+.project_description {
+  width: 500px;
+  overflow: auto;
+}
+.project_list {
+  top: 0px;
 }

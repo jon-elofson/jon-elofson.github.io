@@ -1,6 +1,5 @@
 body {
-  background-color: #EFB341;
-  color: white;
+  background-color: white;
   font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
   padding: 32px;
 }
@@ -16,10 +15,10 @@ img.mepic {
   width: 150px;
 }
 a {
-  color: white;
+  color: black;
 }
 ul a {
-  color: white;
+  color: black;
   font-style: normal;
   text-decoration: none;
 }

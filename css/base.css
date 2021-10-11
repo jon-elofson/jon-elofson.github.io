@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+  font-family: 'Helvetica Neue';
+  padding: 32px;
+}
+h1, h2, h3, h4, h5, h6 {
+ font-weight: 500;
+}
+h2.subtitle {
+  font-size: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h1.name {
+  margin-bottom: 0px;
+}
+img.mepic {
+  max-width: 250px;
+}
+a {
+  color: black;
+}
+ul a {
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+}
+
+p.aboutme {
+  width: 250px;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  min-width: 270px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.bioparagraph {
+  max-width: 450px;
+}

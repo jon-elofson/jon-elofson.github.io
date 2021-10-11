@@ -1,0 +1,87 @@
+/* Cream monochrome theme */
+
+/* name box color */
+    .name {
+        background-color: #d7b98a;
+    }
+/* position box color */
+    .position {
+        background-color: #dbbd8d;
+    }
+
+/* tabs and icons */
+
+/* about tab color */
+    .tabs li.about a {
+    background: #dbbd8d;
+    }
+/* about icon colors */      
+    .tabs li.about.active a,
+    .tabs li.about a:hover {
+        color: #dbbd8d;
+    }
+
+/* resume tab color */
+    .tabs li.resume a {
+    background: #dfc192;
+    }
+/* resume icon colors */      
+    .tabs li.resume.active a,
+    .tabs li.resume a:hover {
+        color: #dfc192;
+    }
+
+/* portfolio tab color */
+    .tabs li.portfolio a {
+    background: #e2c597;
+    }
+/* portfolio icon colors */      
+    .tabs li.portfolio.active a,
+    .tabs li.portfolio a:hover {
+        color: #e2c597;
+    }
+
+/* contacts tab color */
+    .tabs li.contacts a {
+    background: #e6c99b;
+    }
+/* contacts icon colors */     
+    .tabs li.contacts.active a,
+    .tabs li.contacts a:hover {
+        color: #e6c99b;
+    }
+
+/* feedback tab color */
+    .tabs li.feedback a {
+    background: #ebcd9f;
+    }
+/* feedback icon colors */      
+    .tabs li.feedback.active a,
+    .tabs li.feedback a:hover {
+        color: #ebcd9f;
+    }
+
+
+/* main page content first line text color */       
+    .blue {
+    color: #c7a062 !important;
+    }
+/* main page content second line text color */      
+    .orange {
+    color: #c7a062 !important;
+    }
+/* main page content phone number color */    
+    #home span {
+    color: #dbbd8d;
+    font-size: 32px;
+    margin: 12px 0 0 4px;
+    }
+
+/* active button color */
+    .button-red {
+    background: #d7b98a !important;
+    }
+/* non-active button color */      
+    .button-blue {
+    background: #e6c99b !important;
+    }

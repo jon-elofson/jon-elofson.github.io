@@ -26,14 +26,9 @@ ul a {
   text-decoration: none;
 }
 
-p.aboutme {
-  width: 250px;
-}
-
 .column {
   float: left;
   width: 40%;
-  min-width: 270px;
   padding-bottom: 50px;
 }
 
@@ -53,7 +48,7 @@ a:hover {
 }
 
 .bioparagraph {
-  max-width: 450px;
+  max-width: 600px;
   text-align: justify;
   text-justify: inter-word;
 }

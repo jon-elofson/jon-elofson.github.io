@@ -28,7 +28,6 @@ ul a {
 
 .column {
   float: left;
-  width: 40%;
   padding-bottom: 50px;
 }
 
@@ -48,7 +47,7 @@ a:hover {
 }
 
 .bioparagraph {
-  max-width: 600px;
+  max-width: 500px;
   text-align: justify;
   text-justify: inter-word;
 }

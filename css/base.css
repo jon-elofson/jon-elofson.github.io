@@ -48,7 +48,4 @@ a:hover {
 
 .bioparagraph {
   max-width: 500px;
-  text-align: justify;
-  text-justify: inter-word;
-  word-spacing:-2px;
 }
